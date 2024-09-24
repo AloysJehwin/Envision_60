@@ -191,7 +191,7 @@
                 document.getElementById('voltageValue').innerText = voltage.toFixed(2) + ' V';
                 
                 currentGauge.set(current);
-                document.getElementById('currentValue').innerText = current.toFixed(2) + ' A';
+                document.getElementById('currentValue').innerText = current.toFixed(2) + ' mA';
                 
                 const power = calculatePower(voltage, current);
                 powerGauge.set(power);
